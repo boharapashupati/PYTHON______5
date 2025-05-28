@@ -9,4 +9,3 @@ def fibo(n):
 for i in range(n):
     print(fibo(i), end=' ')
     
-# https://djangocentral.com/fibonacci-sequence/#method-1-fibonacci-sequence-using-recursion

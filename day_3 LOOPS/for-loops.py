@@ -59,15 +59,133 @@
 #         print(f"{num} is odd")
 
 
-num = int(input("Enter a number: "))
+# num = int(input("Enter a number: "))
 
-if num % 2 == 0:
-    print("Yo even number ho.")
-else:
-    print("Yo odd number ho.")
-
-
+# if num % 2 == 0:
+#     print("Yo even number ho.")
+# else:
+#     print("Yo odd number ho.")
 
 
 
 
+
+
+
+# number = 36 
+# print("number  =",number)
+# if number% 2 == 0:
+#     if number% 3 == 0:
+#         print("Divisible by 3 and 2")
+
+#     else:
+#         print("Divisible by 2 but not by 3")
+# else:
+#     if number% 3 == 0:
+#         print("Divisible by 3 but not by 2")
+#     else:
+#         print("Not divisible by 2 or 3")
+
+
+
+# def weekday (n):
+#     match n:
+#         case 0: return "Monday"
+#         case 1: return "Tuesday"
+#         case 2: return "Wednesday"
+#         case 3: return "Thursday"
+#         case 4: return "Friday"
+#         case 5: return "Saturday"
+#         case 6: return "Sunday"
+#         case _: return "Invalid day number"
+
+# print(weekday(3))
+# print(weekday(6))
+# print(weekday(7))
+
+
+
+
+# def greeting(details):
+#     match details:
+#         case[time,name]:
+#             return(f"Good {time}, {name}!")
+#         case[time,*names]:
+#             msg=''
+#             for name in names:
+#                 msg+=f"Good {time}, {name}!\n"
+#             return msg
+# print(greeting(["morning", "Alice"]))
+# print(greeting(["afternoon", "Bob"]))
+# print(greeting(["evening", "Eve"]))           
+
+
+
+
+
+
+# # condition 
+# def weekday(n):
+#     if n == 0:
+#         return "Monday"
+#     elif n == 1:
+#         return "Tuesday"
+
+
+#     elif n == 2:
+#         return "Wednesday"
+#     elif n == 3:
+#         return "Thursday"
+    
+#     elif n == 4:
+#         return "Friday"
+    
+#     elif n == 5:
+#         return "Saturday"
+#     elif n == 6:
+#         return "Sunday"
+    
+#     else:
+#         return "Invalid day number"
+    
+
+# print(weekday(3)) 
+# print(weekday(6)) 
+# print(weekday(7)) 
+# print(weekday(0))  
+
+
+
+
+# numbers = [12, 18, 20, 25, 36, 40]
+# for number in numbers:
+#     print("number =", number)
+#     if number % 2 == 0:
+#         if number % 3 == 0:
+#             print("Divisible by 3 and 2")
+#         else:
+#             print("Divisible by 2 but not by 3")
+#     else:
+#         if number % 3 == 0:
+#             print("Divisible by 3 but not by 2")
+#         else:
+#             print("Not divisible by 2 or 3")
+
+
+
+# yuta loop vitrw arko loop use garnee 
+
+
+
+
+
+
+Zen = '''
+Beautiful is better than ugly.
+Explicit is better than implicit.  
+Simple is better than complex.
+Complex is better than complicated.'''
+
+for char in Zen:
+    if char not in 'aeiou':
+        print(char, end=' ')
